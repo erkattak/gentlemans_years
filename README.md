@@ -22,7 +22,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+> require 'gentlemans_years'
+=> true
+> puts 1.gentlemans_year.from_now
+2018-03-16 11:03:44 -0400
+=> nil
+> puts 2.gentlemans_years.from_now
+2019-03-16 11:03:51 -0400
+=> nil
+```
 
 ## Development
 
